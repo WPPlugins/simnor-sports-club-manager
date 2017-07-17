@@ -1,0 +1,232 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Simnor Sports Club Manager\n"
+"POT-Creation-Date: 2014-03-16 14:37-0000\n"
+"PO-Revision-Date: 2014-03-16 14:37-0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.3\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../simnor-sports-club-manager.php:627 ../includes/post-types/players.php:85
+msgid "Position"
+msgstr ""
+
+#: ../simnor-sports-club-manager.php:647
+msgid "Fixtures and Results"
+msgstr ""
+
+#: ../simnor-sports-club-manager.php:703
+msgid "Fixtures & Results"
+msgstr ""
+
+#: ../simnor-sports-club-manager.php:713
+msgid "Title:"
+msgstr ""
+
+#: ../simnor-sports-club-manager.php:717
+msgid "Season:"
+msgstr ""
+
+#: ../simnor-sports-club-manager.php:733
+msgid "Number to show:"
+msgstr ""
+
+#: ../simnor-sports-club-manager.php:737
+msgid "What to show:"
+msgstr ""
+
+#: ../simnor-sports-club-manager.php:745
+msgid "Button Link:"
+msgstr ""
+
+#: ../simnor-sports-club-manager.php:749
+msgid "Button Text:"
+msgstr ""
+
+#: ../includes/admin-fields.php:261
+msgid "Select Icon"
+msgstr ""
+
+#: ../includes/admin-fields.php:289 ../includes/admin-fields.php:300
+msgid "Select..."
+msgstr ""
+
+#: ../includes/admin-options.php:7
+msgid "Default"
+msgstr ""
+
+#: ../includes/admin-options.php:30
+msgid "Date Format"
+msgstr ""
+
+#: ../includes/admin-options.php:37
+msgid "Specific Date Format"
+msgstr ""
+
+#: ../includes/admin-page.php:16 ../includes/admin-page.php:42
+msgid " Options"
+msgstr ""
+
+#: ../includes/admin-page.php:97
+msgid "Save Options"
+msgstr ""
+
+#: ../includes/post-types/fixtures.php:11
+msgid "Add New Fixture"
+msgstr ""
+
+#: ../includes/post-types/fixtures.php:12
+msgid "Edit Fixture"
+msgstr ""
+
+#: ../includes/post-types/fixtures.php:13
+msgid "New Fixture"
+msgstr ""
+
+#: ../includes/post-types/fixtures.php:14
+msgid "View Fixture"
+msgstr ""
+
+#: ../includes/post-types/fixtures.php:15
+msgid "Search Fixtures"
+msgstr ""
+
+#: ../includes/post-types/fixtures.php:16 ../includes/post-types/fixtures.php:46
+#: ../includes/post-types/players.php:16 ../includes/post-types/players.php:46
+msgid "Nothing found"
+msgstr ""
+
+#: ../includes/post-types/fixtures.php:17 ../includes/post-types/fixtures.php:47
+#: ../includes/post-types/players.php:17 ../includes/post-types/players.php:47
+msgid "Nothing found in Trash"
+msgstr ""
+
+#: ../includes/post-types/fixtures.php:41
+msgid "Add New Season"
+msgstr ""
+
+#: ../includes/post-types/fixtures.php:42
+msgid "Edit Season"
+msgstr ""
+
+#: ../includes/post-types/fixtures.php:43
+msgid "New Season"
+msgstr ""
+
+#: ../includes/post-types/fixtures.php:44
+msgid "View Season"
+msgstr ""
+
+#: ../includes/post-types/fixtures.php:45
+msgid "Search Seasons"
+msgstr ""
+
+#: ../includes/post-types/fixtures.php:88 ../includes/post-types/players.php:69
+msgid "Yes"
+msgstr ""
+
+#: ../includes/post-types/fixtures.php:92 ../includes/post-types/players.php:73
+msgid "No"
+msgstr ""
+
+#: ../includes/post-types/fixtures.php:96 ../includes/post-types/players.php:77
+msgid "Maybe"
+msgstr ""
+
+#: ../includes/post-types/fixtures.php:104
+msgid "Fixture Details"
+msgstr ""
+
+#: ../includes/post-types/fixtures.php:108
+msgid "Date"
+msgstr ""
+
+#: ../includes/post-types/fixtures.php:115
+msgid "Time"
+msgstr ""
+
+#: ../includes/post-types/fixtures.php:122
+msgid "Location"
+msgstr ""
+
+#: ../includes/post-types/fixtures.php:129
+msgid "Home Team"
+msgstr ""
+
+#: ../includes/post-types/fixtures.php:133
+msgid "Team Logo"
+msgstr ""
+
+#: ../includes/post-types/fixtures.php:140 ../includes/post-types/fixtures.php:172
+msgid "Team Name"
+msgstr ""
+
+#: ../includes/post-types/fixtures.php:155 ../includes/post-types/fixtures.php:187
+msgid "Score"
+msgstr ""
+
+#: ../includes/post-types/fixtures.php:161
+msgid "Away Team"
+msgstr ""
+
+#: ../includes/post-types/fixtures.php:165
+msgid "Away Logo"
+msgstr ""
+
+#: ../includes/post-types/players.php:11
+msgid "Add New Player"
+msgstr ""
+
+#: ../includes/post-types/players.php:12
+msgid "Edit Player"
+msgstr ""
+
+#: ../includes/post-types/players.php:13
+msgid "New Player"
+msgstr ""
+
+#: ../includes/post-types/players.php:14
+msgid "View Player"
+msgstr ""
+
+#: ../includes/post-types/players.php:15
+msgid "Search Players"
+msgstr ""
+
+#: ../includes/post-types/players.php:41
+msgid "Add New Team"
+msgstr ""
+
+#: ../includes/post-types/players.php:42
+msgid "Edit Team"
+msgstr ""
+
+#: ../includes/post-types/players.php:43
+msgid "New Team"
+msgstr ""
+
+#: ../includes/post-types/players.php:44
+msgid "View Team"
+msgstr ""
+
+#: ../includes/post-types/players.php:45
+msgid "Search Teams"
+msgstr ""
+
+#: ../includes/post-types/players.php:92
+msgid "Label"
+msgstr ""
+
+#: ../includes/post-types/players.php:97
+msgid "Value"
+msgstr ""
+
+#: ../includes/post-types/players.php:102
+msgid "Player Facts"
+msgstr ""

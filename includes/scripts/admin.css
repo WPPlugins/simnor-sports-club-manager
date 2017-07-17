@@ -1,0 +1,294 @@
+/* General */
+.sn-plugin-options-wrap div.updated { margin-top: 20px; margin-bottom: 0px; }
+.sn-plugin-options-wrap form { padding-top: 20px; }
+.sn-options-tabpane { display: none; }
+.sn-plugin-options-wrap h2.nav-tab-wrapper { font-size: 20px; }
+	.sn-plugin-options-wrap .nav-tab { margin-left: 3px; }
+	
+	/* Heading */
+	.sn-options-field-heading, 
+	.sn-options-field-sub-heading { 
+		padding: 12px 14px 9px 14px;
+		background: #f9f9f9;
+		box-shadow: inset 1px 1px 1px #FFF;
+		border: 1px solid #DDD;
+		line-height: normal;
+		margin: -1px 0 20px 0;
+		border-radius: 2px;
+		-moz-border-radius: 2px;
+		-webkit-border-radius: 2px;
+	}
+		.sn-options-field-heading h2, 
+		.sn-options-field-sub-heading h4 {
+			margin: 0 0 3px 0;
+			padding: 0px;
+			font-size: 18px;
+			font-weight: bold;
+			line-height: normal; 
+			text-shadow: 1px 1px 1px #FFF;
+		}
+		.sn-options-field-sub-heading h4 { font-size: 16px; }
+		.sn-options-field-heading p, 
+		.sn-options-field-sub-heading p { margin: 0 0 5px 0; padding: 0px; color: #666; }
+	
+	/* Space */
+	.sn-options-field-space { 
+		height: 30px;
+		margin: -1px 0 10px 0;
+		background: #FFF;
+		position: relative;
+	}
+	
+	/* Fields */
+	.sn-options-field-clearfix { display: block; clear: both; }
+	.sn-options-field-input {
+		border-bottom: 1px solid #EEE;
+		padding: 20px 0 10px 185px;
+		position: relative;
+	}
+		.sn-options-field-input .sn-options-field-label {
+			position: absolute;
+			width: 160px;
+			font-size: 12px;
+			line-height: 18px;
+			top: 22px;
+			left: 10px;
+			font-weight: bold;
+		}
+		.sn-options-field-input .sn-options-field-description { margin: 0 0 8px 0; clear: both; display: block; color: #777; }
+		
+		.sn-options-field-input input, 
+		.sn-options-field-input textarea, 
+		.sn-options-field-input select {
+			margin: 0 0 10px 0;
+			max-width: 400px;
+		}
+		.sn-options-field-input input[type="text"], 
+		.sn-options-field-input input[type="email"],
+		.sn-options-field-input textarea {
+			box-shadow: inset 1px 1px 4px #f9f9f9;
+			padding: 6px 8px;
+		}
+		.sn-options-field-input textarea { padding: 8px; height: 80px; }
+		.sn-options-field-input input[type="text"]:focus, 
+		.sn-options-field-input input[type="email"]:focus,
+		.sn-options-field-input textarea:focus { border-color: #BBB; background: #FFF; }
+	
+	/* Chosen */
+	.sn-options-field-input .chosen { width: 300px; }
+	.sn-options-field-input .chzn-container { margin: 0 0 10px 0; }
+	
+	/* WP editor */
+	.sn-options-field-input .wp-editor-wrap { width: 600px; max-width: 100%; margin: 0 0 10px 0; }
+	.wp-editor-container { background: #FFF; }
+	.sn-options-field-wpeditor textarea { height: 150px; }
+	
+	/* Colour Picker */
+	.sn-options-field-color-picker-container { margin: 0 0 5px 0; }
+	.sn-options-field-input .sn-options-field-color-picker { width: 80px; }
+	.sn-options-field-input .wp-picker-container { position: relative; }
+	.sn-options-field-input .wp-picker-input-wrap { position: absolute; top: 0px; left: 120px; }
+		
+	/* Checkbox */
+	.sn-options-field-checkbox { padding-top: 25px; padding-bottom: 15px; }
+		.sn-options-field-checkbox input[type="checkbox"], 
+		.sn-options-field-checkbox .sn-options-field-description { float: left; margin-right: 10px; clear: none; color: #333; }
+		.sn-options-field-checkbox .sn-options-field-description { margin-top: -2px; }
+		
+	/* Radios */
+	.sn-options-field-radio .sn-options-field-radio-label { color: #333; }
+	.sn-options-field-radio .sn-options-field-radio-label input { margin-right: 6px; }
+	
+	/* Upload */
+	.sn-options-field-upload-buttons { margin: 0 0 10px 0; }
+		.sn-options-field-upload-buttons a.sn-options-field-remove-upload { margin: 0 0 0 5px; font-size: 11px; }
+		.sn-options-field .show-image img {
+			max-width: 300px;
+			border-radius: 3px;
+			-moz-border-radius: 3px;
+			-webkit-border-radius: 3px;
+			box-shadow: 1px 1px 4px #EEE;
+			display: block;
+			margin: 0 0 10px 0;
+		}
+		
+	/* Icon Select */
+	.sn-icon-select {
+		overflow: hidden;
+		position: relative;
+		margin: 0 0 10px 0;
+	}	
+		.sn-icon-select input[type="text"] { display: none; }
+		.sn-icon-select .current-icon {
+			margin: 0 0 0 10px;
+			font-size: 14px;
+			width: 24px;
+			text-align: center;
+			height: 24px;
+			line-height: 24px;
+			color: #333;
+		}
+		.sn-icon-select .sn-icon-select-icons {
+			clear: both;
+			padding: 10px 0 0 0;
+			overflow: hidden;
+			display: none;
+		}
+			.sn-icon-select .sn-icon-select-icons li {
+				display: block;
+				float: left;
+				width: 40px;
+				height: 40px;
+				margin: 0 10px 10px 0!important;
+			}
+				.sn-icon-select .sn-icon-select-icons li a {
+					display: block;
+					float: left;
+					width: 40px;
+					height: 40px;
+					text-align: center;
+					line-height: 40px;
+					color: #555;
+					text-decoration: none;
+					background: #FFF;
+					border: 1px solid #EEE;
+				}
+				.sn-icon-select .sn-icon-select-icons li.active a,
+				.sn-icon-select .sn-icon-select-icons li a:hover {
+					border: 1px solid #CCC;
+					box-shadow: 1px 1px 2px #EEE;
+					color: #333;
+				}
+					.sn-icon-select .sn-icon-select-icons li a i {
+						font-size: 14px;
+					}
+		
+	/* Repeater */
+	.sn-repeater {
+		overflow: hidden;
+		position: relative;
+		padding: 20px 0 20px 185px;
+		border-bottom: 1px solid #EEE;
+	}
+		.sn-repeater .sn-repeater-heading h4 {
+			margin: 0px;
+			padding: 0px;
+			position: absolute;
+			width: 180px;
+			font-size: 12px;
+			line-height: 16px;
+			top: 22px;
+			left: 10px;
+			font-weight: bold;
+		}
+		.sn-repeater .sn-repeater-items {
+			display: block;
+			list-style: none;
+			min-width: 400px;
+			max-width: 700px;
+			margin: 0px;
+		}
+			.sn-repeater .sn-repeater-items li { 
+				display: block;
+				margin: 0 0 10px 0;
+			}
+			.sn-repeater .repeater_template { display: none!important; }
+				.sn-repeater .sn-repeater-items li ul li { margin: 0px; }
+				.sn-repeater .sn-repeater-pane-heading {
+					cursor: move;
+					padding: 20px 20px;
+					display: block;
+					overflow: hidden;
+					background: #f9f9f9;
+					box-shadow: inset 1px 1px 1px #FFF;
+					border: 1px solid #DDD;
+					border-radius: 2px;
+					-moz-border-radius: 2px;
+					-webkit-border-radius: 2px;
+				}
+				.sn-repeater li.active .sn-repeater-pane-heading {
+					border-color: #CCC;
+					border-radius: 2px 2px 0 0;
+					-moz-border-radius: 2px 2px 0 0;
+					-webkit-border-radius: 2px 2px 0 0;
+				} 
+					.sn-repeater .sn-repeater-pane-heading h4 {
+						float: left;
+						display: block;
+						margin: 0px;
+						line-height: 24px;
+						font-size: 14px;
+						font-weight: normal;
+						position: relative;
+						text-shadow: 1px 1px 1px #FFF;
+						font-weight: bold;
+						padding: 0 0 0 26px;
+						color: #555;
+					}
+						.sn-repeater .sn-repeater-pane-heading h4 span {
+							display: block;
+							position: absolute;
+							top: 5px;
+							left: 0px;
+							width: 16px;
+							height: 13px;
+							background: url(./admin-sprite.png) no-repeat -60px top;
+						}
+					.sn-repeater .sn-repeater-pane-heading .actions {
+						float: right;
+						display: block;
+					}
+						.sn-repeater .sn-repeater-pane-heading .actions a {
+							display: block;
+							float: left;
+							width: 24px;
+							height: 24px;
+							margin: 0 0 0 5px;
+							text-indent: -9999px;
+							background: url(./admin-sprite.png) no-repeat;
+						}
+						.sn-repeater .sn-repeater-pane-heading .actions a.sn-repeater-toggle-options {
+							background-position: left -68px;
+						}
+						.sn-repeater .sn-repeater-pane-heading .actions a.sn-repeater-toggle-options:hover {
+							background-position: -30px -68px;
+						}
+						.sn-repeater li.active .sn-repeater-pane-heading .actions a.sn-repeater-toggle-options {
+							background-position: left -34px;
+						}
+						.sn-repeater li.active .sn-repeater-pane-heading .actions a.sn-repeater-toggle-options:hover {
+							background-position: -30px -34px;
+						}
+						.sn-repeater .sn-repeater-pane-heading .actions a.sn-repeater-remove {
+							background-position: left top;
+						}
+						.sn-repeater .sn-repeater-pane-heading .actions a.sn-repeater-remove:hover {
+							background-position: -30px top;
+						}
+				.sn-repeater .sn-repeater-pane-content {
+					display: none;
+					padding: 10px 0 0 0;
+					border-left: 1px solid #EEE;
+					border-right: 1px solid #EEE;
+					border-bottom: 1px solid #EEE;
+					background: #FFF;
+				}
+				.sn-repeater li.active .sn-repeater-pane-content { border-color: #CCC; } 
+					.sn-repeater .sn-repeater-pane-content .sn-options-field-input { padding-right: 30px; }
+					.sn-repeater .sn-repeater-pane-content .sn-options-field-input .sn-options-field-label { left: 20px; }
+					.sn-repeater .sn-options-field-heading, 
+					.sn-repeater .sn-options-field-sub-heading { margin: 20px 20px 20px 20px; }
+		
+	/* Post Options */
+	.sn-post-options-wrap { padding: 0 0 0 10px; }
+	.sn-post-options-wrap h2.nav-tab-wrapper { padding: 0px!important; margin-bottom: 0!important }
+	.sn-post-options-wrap .nav-tab:hover, .sn-post-options-wrap .nav-tab-active { border-bottom-color: #f9f9f9; }
+	.sn-post-options-wrap .sn-options-tabpane { padding-top: 20px; }
+	.sn-post-options-wrap .sn-options-field-heading h2, 
+	.sn-post-options-wrap .sn-options-field-sub-heading h4 { margin: 0 0 3px 0!important; }
+	.sn-post-options-wrap .sn-options-field-space { background: #f9f9f9; }
+	.sn-post-options-wrap .sn-repeater .sn-repeater-pane-heading, 
+	.sn-post-options-wrap .sn-options-field-sub-heading, 
+	.sn-post-options-wrap .sn-options-field-heading { background: #FFF; }
+	.sn-post-options-wrap .sn-repeater .sn-options-field-heading, 
+	.sn-post-options-wrap .sn-repeater .sn-options-field-sub-heading { background: #f9f9f9; }
